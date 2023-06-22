@@ -1,8 +1,14 @@
 # ToDo App with React and Typescript
 
 ---
+
+## Project execution:
+- npm run dev
+
+---
 ## Investigated sites
--  CSS for TodoMVC apps: https://github.com/tastejs/todomvc-app-css
+- CSS for TodoMVC apps: https://github.com/tastejs/todomvc-app-css
+- Cheatsheets for experienced React developers getting started with TypeScript: https://github.com/typescript-cheatsheets/react
 
 ---
 ## Project initiation
