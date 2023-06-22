@@ -16,3 +16,9 @@
     - How would you like to define a style for your project? -> Use a popular style guide -> Standard
     - What format do you want your config file to be in? -> JavaScript
     - Which package manager do you want to use? -> npm
+  - Eslint extra setup:
+    - .eslintrc.cjs:
+      - parserOptions:
+        - Adding of: project: './tsconfig.json'
+      - rules:
+        - Adding of: 'react/react-in-jsx-scope': 'off'
