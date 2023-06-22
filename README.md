@@ -1,7 +1,10 @@
 # ToDo App with React and Typescript
 
 ---
+## Investigated sites
+-  CSS for TodoMVC apps: https://github.com/tastejs/todomvc-app-css
 
+---
 ## Project initiation
 - Project creation with Vite:
   - npm create vite@latest todo-app-react-typescript
