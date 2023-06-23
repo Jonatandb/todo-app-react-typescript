@@ -42,3 +42,4 @@
         - Adding of: project: './tsconfig.json'
       - rules:
         - Adding of: 'react/react-in-jsx-scope': 'off'
+        - Adding of: 'react/prop-types': 'off'
