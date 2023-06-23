@@ -1,6 +1,17 @@
 # ToDo App with React and Typescript
+---
+<p align="center">
+    <a href="https://jonatandb.github.io/todo-app-react-typescript/">
+        <img src="./Screenshot.png" alt="ToDo App with React and Typescript by Jonatandb"/>
+    </a>
+</p>
 
 ---
+## Live Preview:
+  -  https://jonatandb.github.io/todo-app-react-typescript/
+
+
+----
 
 ## Project execution:
 - npm run dev
@@ -9,9 +20,9 @@
 ## Investigated sites
 - CSS for TodoMVC apps: https://github.com/tastejs/todomvc-app-css
 - Cheatsheets for experienced React developers getting started with TypeScript: https://github.com/typescript-cheatsheets/react
-
+- Deploying a Static Site | Vite: https://vitejs.dev/guide/static-deploy.html
 ---
-## Project initiation
+## Project initiation:
 - Project creation with Vite:
   - npm create vite@latest todo-app-react-typescript
 
