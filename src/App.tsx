@@ -1,22 +1,23 @@
 import { useState } from 'react'
 import { Todos } from './components/Todos'
-import { type FilterValue, type TodoId, type Todo as TodoType } from './types'
+import { type TodoTitle, type FilterValue, type TodoId, type Todo as TodoType } from './types'
 import { TODO_FILTERS } from './consts'
 import { Footer } from './components/Footer'
+import { Header } from './components/Header'
 
 const mockTodos = [
   {
-    id: 1,
+    id: '1',
     title: 'Crear proyecto con Vite/React/TypeScript',
     completed: true
   },
   {
-    id: 2,
+    id: '2',
     title: 'Aprender React con TypeScript',
     completed: false
   },
   {
-    id: 3,
+    id: '3',
     title: 'Publicar web online',
     completed: false
   }
@@ -55,6 +56,16 @@ const App = (): JSX.Element => {
     setTodos(newTodos)
   }
 
+  const handleAddTodo = ({ title }: TodoTitle): void => {
+    const newTodo = {
+      title,
+      id: crypto.randomUUID(),
+      completed: false
+    }
+    const newTodos = [...todos, newTodo]
+    setTodos(newTodos)
+  }
+
   const activeCount = todos.filter(todo => !todo.completed).length
   const completedCount = todos.length - activeCount
 
@@ -66,6 +77,7 @@ const App = (): JSX.Element => {
 
   return (
     <div className="todoapp">
+      <Header onAddTodo={handleAddTodo} />
       <Todos
         todos={filteredTodos}
         onRemoveTodo={hadleRemove}
