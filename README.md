@@ -10,7 +10,6 @@
 ## Live Preview:
   -  https://jonatandb.github.io/todo-app-react-typescript/
 
-
 ----
 
 ## Project execution:
@@ -21,6 +20,7 @@
 - CSS for TodoMVC apps: https://github.com/tastejs/todomvc-app-css
 - Cheatsheets for experienced React developers getting started with TypeScript: https://github.com/typescript-cheatsheets/react
 - Deploying a Static Site | Vite: https://vitejs.dev/guide/static-deploy.html
+- Introducción a Vite, mas Deploy en Github Pages (Por si no lo vite): https://www.youtube.com/watch?v=UX4gvort2TU
 ---
 ## Project initiation:
 - Project creation with Vite:
