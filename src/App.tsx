@@ -14,12 +14,12 @@ const mockTodos = [
   {
     id: '2',
     title: 'Aprender React con TypeScript',
-    completed: false
+    completed: true
   },
   {
     id: '3',
     title: 'Publicar web online',
-    completed: false
+    completed: true
   }
 ]
 
