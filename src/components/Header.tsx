@@ -9,7 +9,7 @@ export const Header: React.FC<Props> = ({ onAddTodo }) => {
   return (
     <header className="header">
       <h1>
-        todo
+        ToDo
         <img
           alt="ToDo App"
           style={{ width: '60px', height: 'auto' }}
